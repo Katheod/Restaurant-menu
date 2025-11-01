@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hell's Kitchen | Las Vegas
+        </title>
+    </head>
+    <body>
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/0/03/HKSIC.png" alt="Hell's Kitchen logo">
+            <h1> Hell's Kitchen </h1>
+            <nav>
+                <ul>
+                    <li> <a href="#menu">Menu</a></li>
+                    <li> <a href="#order-form">Placer votre commande</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br/><hr/><br/>
+        <main>
+            <section id="menu">
+                <h2> Menu </h2>
+                <h2>Entrée</h2> 
+                <article>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/19/6b/06/42/pan-seared-scallops.jpg", alt="pan seard scallops", style="width:300px;">
+                    <h3> <br>pétoncles poêlés </br></h3>
+                    <p>
+                        côtes de bœuf braisées, purée de céleri-rave, choux de Bruxelles, courge delicata <br>
+                        <i> chardonnay, davis bynum, 2022 </i>
+                    </p>
+                </article>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnSeqhKQOI7UYRrw-QMA7rzACLx2tSCE9Lw&s", alt="roasted beets & burrata", style="width:300px;">
+                    <h3> betteraves rôties et burrata</h3>
+                    <p>
+                        Prosciutto de Parme, dattes medjool, dukkah, clémétines, vinaigrette à l'échalote <br>
+                        <i> sauvignon blanc, attitude par pascal jolivet, 2023 </i>
+                    </p>
+                </article>
+                <br/><hr/><br/>
+                <h2> Plat principal </h2>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkBirXRUR-dSYjOkQKQRC1662K5PmP6lIN9Q&s", alt="black truffle beef wellington", style="width:300px;">
+                    <h3> bœuf Wellington à la truffe noire</h3>
+                    <p>
+                        Purée de pommes de terre, légumes racines glacés, demi-glace au vin rouge <br>
+                        Ajoutez du foie gras pour 22,95 $ ou une queue de homard pour 25,95 $<br>
+                        <i> Mélange exclusif de vins rouges, Léviathan, 2020 </i>
+                    </p>
+                </article>
+                <br/><hr/><br/>
+                <h2> Dessert </h2>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBgwec3w99N4YIdFm_e5iep-cxK_lHQkJ5w&s", alt="sticky toffee pudding", style="width:300px;">
+                    <h3> pudding au caramel collant</h3>
+                    <p>
+                        Crème glacée spéculoos <br>
+                        <i>Sandeman Porto Tawny 10 ans, Portugal</i><br>
+                        <i> Optez pour l'accord mets-vins de première qualité avec la liqueur de poire épicée St. George pour 15,95 $ </i>
+                    </p>
+                </article>
+            </section>
+            <br/><hr/><br/>
+            <section id="order-form">
+                <h2> Place Your Order </h2>
+                <p> Quel entrée préféreriez-vous ?</p>
+                <form>
+                    <input type="radio", id="pan-seared-scallops", name="first course" value="pan seared scallops">
+                    <label for="pan-seared-scallops">pétoncles poêlés</label><br>
+                    <input type="radio", id="roasted-beets-&-burrata", name="first course" value="roasted beets & burrata">
+                    <label for="roasted-beets-&-burrata">betteraves rôties et burrata</label><br>
+                </form>
+                <p> Aimeriez-vous ajouter du foie gras ou un queue de homard à votre boeuf wellington ? </p>
+                <form>
+                    <input type="checkbox", id="foie-gras", name="second course" value="foie gras">
+                    <label for="foie-gras">Foie gras</label><br>
+                    <input type="checkbox", id="lobster-tall", name="second course" value="lobster-tall">
+                    <label for="lobster-tall">Queue de homard</label><br>
+                </form>
+                <p> Souhaitez-vous ajouter l'accord mets-vins à votre dessert ? </p>
+                <form>
+                    <input type="radio", id="oui", name="oui" value="oui">
+                    <label for="oui">Oui</label><br>
+                    <input type="radio", id="non", name="non" value="non">
+                    <label for="non">Non</label><br>
+                </form>
+                </p> Dû aux nombreuses spécifications que chaque commande demande, veuiller commander une personne à la fois<br>
+                ou appelez-nous au numéro suivant : <br>
+                <input type="submit" value="1 702-731-7373">
+                <p> Informations </p>
+                <form>
+                    <label for="fname">Prénom:</label>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Nom:</label>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="adress">Adresse de livraison:</label>
+                    <input type="text" id="adress" name="adress"  required><br>
+                    <textarea placeholder="informations supplémentaire sur la livraison"></textarea><br>
+                    <label for="pay">Numéro de carte de crédit:</label>
+                    <input type="text" id="pay" name="pay" maxlength="16" minlength="16" required><br>
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p> Made with love by Gordon Ramsay </p>
+        </footer>
+    </body>
+</html>
